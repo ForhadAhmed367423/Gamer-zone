@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.nav-left .left-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-left .left-item img {
+    width: 60px;
+    height: 35px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.nav-right li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.right-icon {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 20px;
+    text-align: center;
+}

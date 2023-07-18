@@ -1,0 +1,37 @@
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-left{
+        margin-bottom: 50px;
+
+    }
+    .nav-right {
+       flex-direction: column;
+    }
+    .right-items {
+        margin-bottom: 30px;
+    }
+    .right-icon{
+        padding: 20px;
+    }
+
+    
+}
+@media screen and (min-width:576px) and (max-width:992px) 
+{
+    
+    .nav-left{
+        margin-bottom: 50px;
+
+    }
+    .nav-right {
+       flex-direction: column;
+    }
+    .right-items {
+        margin-bottom: 30px;
+    }
+    .right-icon{
+        padding: 20px;
+    }
+}

@@ -13,8 +13,9 @@
     justify-content: space-around;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    padding-top:30px;
+    padding-top: 30px;
     padding-bottom: 30px;
+    max-width: 1440px;
 }
 
 .nav-left .left-item {
@@ -51,3 +52,77 @@
     padding: 15px 20px;
     text-align: center;
 }
+
+/* nav section ends */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-left{
+    background-image: url(Group\ 14.png);
+    padding: 140px 250px 300px 200px;
+}
+.banner-left-btn {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.banner-left h3 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-left-deccription {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 15px;
+
+}
+
+.banner-left-deccription i {
+    margin-right: 15px;
+}
+
+.banner-left h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 5.9rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    padding: 20px 30px;
+    border-radius: 48px;
+    border: none;
+    transition: 1s;
+}
+
+.sign {
+    background: #FF42A5;
+}
+
+.rogue {
+
+    background: #4EC5F7;
+}
+.sign:hover{
+    background: #4EC5F7;
+    cursor: pointer;
+}
+.rogue:hover{
+    background: #FF42A5;
+    cursor: pointer;
+}
+

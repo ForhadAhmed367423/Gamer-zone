@@ -202,8 +202,7 @@
 .online-left {}
 
 .online-right {
-    padding-left: 200px;
-    padding-right: 150px;
+    padding: 30px;
 }
 
 .online-right h2 {
@@ -227,9 +226,11 @@
     line-height: 30px;
     margin-top: 20px;
 }
+.online-left{
+    padding:  70px;
+}
 
 .online-left .online-main {
-    width: 100%;
     border-radius: 8px;
 }
 
@@ -239,5 +240,5 @@
 
 .online-sub {
     position: absolute;
-    margin: 226px 0 0 -167px;
+    margin: 450px 0 0 -250px;
 }

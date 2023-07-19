@@ -1,4 +1,4 @@
-@media screen and (max-width:576px) {
+@media screen and (max-width:445px) {
     .nav-container {
         flex-direction: column;
     }
@@ -73,13 +73,101 @@
         text-align: center;
     }
 
-    .online-left {
-        width: 80%;
+    .online-left .online-main{
+        width: 100%;
     }
 
     .online-left .online-sub {
         width: 35%;
-        margin: 220px 0 0 -115px;
+        /* margin: 220px 0 0 -115px; */
+        margin: 154px 0 0 -90px;
+    }
+
+}
+
+@media screen and (min-width:445px) and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-left {
+        margin-bottom: 50px;
+
+    }
+
+    .nav-right {
+        flex-direction: column;
+    }
+
+    .right-items {
+        margin-bottom: 30px;
+    }
+
+    .right-icon {
+        padding: 20px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        padding: 40px;
+    }
+
+    .banner-right img {
+        width: 100%;
+    }
+
+    .banner-left {
+        padding: 30px;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-left img {
+        width: 80%;
+        padding: 30px;
+    }
+
+    .main-right {
+        text-align: right;
+        padding: 30px;
+    }
+
+    .main-right h1 {
+        text-align: right;
+        font-size: 2rem;
+    }
+
+    .main-right p,
+    .main-right small {
+        font-size: 0.7rem;
+    }
+
+    .main-right h2 {
+        font-size: 1rem;
+    }
+
+    .online-container {
+        flex-direction: column-reverse;
+
+    }
+
+    .online-right {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .online-left .online-main{
+        width: 100%;
+    }
+
+    .online-left .online-sub {
+        width: 35%;
+        /* margin: 220px 0 0 -115px; */
+        margin: 154px 0 0 -90px;
     }
 
 }
@@ -155,13 +243,13 @@
         text-align: center;
     }
 
-    .online-left {
-        width: 80%;
+    .online-left .online-main{
+        width: 100%;
     }
 
     .online-left .online-sub {
         width: 20%;
-        margin: 150px 0 0 -135px;
+        margin: 105px 0 0 -90px;
 
     }
 

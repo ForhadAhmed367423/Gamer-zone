@@ -258,10 +258,10 @@
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 
-/* .career-right {
+.career-right {
     padding-left: 50px;
     padding-right: 50px;
-} */
+}
 
 .career-right h2 {
     color: #FFF;
@@ -303,12 +303,13 @@
     color: #FFF;
 }
 
-.career-left {
-    width: 50%;
+.career-left img{
+    width: 100%;
 }
 
-.career-right {
+.career-right{
     width: 50%;
+    
 }
 
 /* career section ends  */

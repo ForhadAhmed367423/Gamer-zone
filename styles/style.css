@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 .nav-container {
@@ -313,47 +315,33 @@
 }
 
 /* career section ends  */
-.gamer-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+.gamers-container{
+    padding: 120px 0;
 }
-
-.gamer-container a {
-    text-decoration: none;
-    text-align: center;
-}
-
-.gamer-1 {
+.item-wrap ul{
     display: flex;
-    margin-bottom: 100px;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-}
+    align-items: center;
+    gap: 25px;
 
-.gamer-1 a:hover {
-    border-radius: 50px;
-    background: #fff;
-    border: 1px solid #F948B2;
 }
-
-.gamer-1 a {
-    text-align: center;
-    padding: 10px 10px;
-}
-
-.gamer-2 {
+.item-wrap a{
     display: flex;
-}
-.gamer-2 a{
-    text-align: center;
-    padding: 10px 10px;
-}
-.gamer-2 a:hover{
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
     border-radius: 50px;
-    background: #fff;
-    border: 1px solid #F948B2;
+    transition: 0.1s;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #0B0223;
+}
+.item-wrap a:hover{
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+
 }
 
 
